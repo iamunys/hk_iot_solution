@@ -54,7 +54,7 @@ class _AddADeviceState extends State<AddADevice> {
         onPressed: () => context.pop(),
       ),
       title: Text(
-        'Saron Smart',
+        'Hk Iot Solutions',
         style: TextStyle(
           fontFamily: 'Anton',
           color: Colors.white,

@@ -7,7 +7,6 @@ import 'package:flutter/services.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:smart_controller/constant/constant.dart';
 import 'package:smart_controller/widgets/authentication/apple_sign_in.dart';
-import 'package:smart_controller/widgets/authentication/mobileNumberWid.dart';
 import 'package:smart_controller/widgets/authentication/signWithGoogle.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -144,19 +143,21 @@ class _LoginHomeScreenState extends State<LoginHomeScreen> {
                 child: Center(
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Image.asset(
-                        'lib/constant/icons/saronIcon.png',
+                        'lib/constant/icons/hkIcon.png',
                         fit: BoxFit.cover,
-                        scale: 8,
+                        scale: 3,
                       ),
                       Text(
-                        'Saron Smart',
+                        'Hk Iot Solutions',
+                        textAlign: TextAlign.center,
                         style: TextStyle(
                             fontFamily: 'Anton',
                             color: Constant.bgSecondary,
                             fontWeight: FontWeight.w700,
-                            fontSize: 32.sp,
+                            fontSize: 28.sp,
                             letterSpacing: 2),
                       ),
                     ],

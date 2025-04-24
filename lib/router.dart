@@ -54,11 +54,6 @@ final GoRouter router = GoRouter(
           },
         ),
         GoRoute(
-          path: 'selectDevice',
-          builder: (BuildContext context, GoRouterState state) =>
-              const SelectCategory(),
-        ),
-        GoRoute(
           path: 'addDevice',
           builder: (BuildContext context, GoRouterState state) =>
               const AddADevice(),

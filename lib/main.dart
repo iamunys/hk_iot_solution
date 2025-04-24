@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       return MaterialApp.router(
         routerConfig: router,
         debugShowCheckedModeBanner: false,
-        title: 'Saron Smart',
+        title: 'Hk Iot Solutions',
         theme: ThemeData(
           useMaterial3: true,
         ),

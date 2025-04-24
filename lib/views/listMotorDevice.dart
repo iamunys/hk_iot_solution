@@ -37,14 +37,6 @@ class _ListDeviceScreenState extends State<ListDeviceScreen> {
         backgroundColor: Constant.bgSecondary,
         centerTitle: false,
         elevation: 5,
-        leading: IconButton(
-            onPressed: () {
-              context.pop();
-            },
-            icon: const Icon(
-              Icons.arrow_back_ios_new_rounded,
-              color: Constant.bgWhite,
-            )),
         title: Constant.textWithStyle(
             fontWeight: FontWeight.w900,
             text: 'Choose your device',
@@ -71,7 +63,7 @@ class _ListDeviceScreenState extends State<ListDeviceScreen> {
           builder: (context, snapshot) {
             if (snapshot.hasError) return Text('Error: ${snapshot.error}');
             if (!snapshot.hasData || snapshot.data!.snapshot.value == null) {
-              return const Center(child: CircularProgressIndicator());
+              return noDeviceWid();
             }
 
             final devicesMap =
@@ -90,56 +82,7 @@ class _ListDeviceScreenState extends State<ListDeviceScreen> {
                   entry.key as String, entry.value as Map<dynamic, dynamic>);
             }).toList();
             if (devices.isEmpty) {
-              return Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Image.asset('lib/constant/icons/motor.png',
-                      color: Constant.textPrimary, scale: 6),
-                  SizedBox(height: 1.h),
-                  Constant.textWithStyle(
-                      text: 'No Device found',
-                      size: 17.sp,
-                      color: Constant.textPrimary,
-                      fontWeight: FontWeight.w600),
-                  SizedBox(height: 3.h),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      InkWell(
-                        onTap: () => context.go('/addDevice'),
-                        child: Container(
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 20, vertical: 15),
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            border: Border.all(color: Constant.bgSecondary),
-                          ),
-                          child: Center(
-                            child: Constant.textWithStyle(
-                                text: 'Add Devices',
-                                size: 16.sp,
-                                color: Constant.bgSecondary,
-                                fontWeight: FontWeight.w700),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  SizedBox(
-                    height: 3.h,
-                  ),
-                  InkWell(
-                    onTap: () => context.push('/profile'),
-                    child: Center(
-                      child: Constant.textWithStyle(
-                          text: 'Settings -->',
-                          size: 15.sp,
-                          color: Constant.textSecondary,
-                          fontWeight: FontWeight.w700),
-                    ),
-                  )
-                ],
-              );
+              return noDeviceWid();
             } else {
               return SingleChildScrollView(
                 padding: const EdgeInsets.only(bottom: 100),
@@ -299,6 +242,59 @@ class _ListDeviceScreenState extends State<ListDeviceScreen> {
             ],
           ),
         ),
+      ],
+    );
+  }
+
+  Widget noDeviceWid() {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Image.asset('lib/constant/icons/motor.png',
+            color: Constant.textPrimary, scale: 6),
+        SizedBox(height: 1.h),
+        Constant.textWithStyle(
+            text: 'No Device found',
+            size: 17.sp,
+            color: Constant.textPrimary,
+            fontWeight: FontWeight.w600),
+        SizedBox(height: 3.h),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            InkWell(
+              onTap: () => context.go('/addDevice'),
+              child: Container(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(color: Constant.bgSecondary),
+                ),
+                child: Center(
+                  child: Constant.textWithStyle(
+                      text: 'Add Devices',
+                      size: 16.sp,
+                      color: Constant.bgSecondary,
+                      fontWeight: FontWeight.w700),
+                ),
+              ),
+            ),
+          ],
+        ),
+        SizedBox(
+          height: 3.h,
+        ),
+        InkWell(
+          onTap: () => context.push('/profile'),
+          child: Center(
+            child: Constant.textWithStyle(
+                text: 'Settings -->',
+                size: 15.sp,
+                color: Constant.textSecondary,
+                fontWeight: FontWeight.w700),
+          ),
+        )
       ],
     );
   }

@@ -37,8 +37,6 @@ class _SplashScreenState extends State<SplashScreen> {
             return const ListDeviceScreen();
           } else if (controller.splashCompleteLogin) {
             return const LoginHomeScreen();
-          } else if (controller.splashCompleteSelectDevice) {
-            return const SelectCategory();
           } else {
             return Scaffold(
               backgroundColor: Constant.bgSecondary,
@@ -56,9 +54,9 @@ class _SplashScreenState extends State<SplashScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
-                      "lib/constant/icons/saron.png",
-                      scale: 2,
-                      color: Constant.bgPrimary,
+                      'lib/constant/icons/hkIcon.png',
+                      fit: BoxFit.cover,
+                      scale: 3,
                     ),
                     SizedBox(
                       height: 1.h,

@@ -1,57 +1,41 @@
 {
   "project_info": {
-    "project_number": "709479408697",
-    "firebase_url": "https://motocon-v3-iot-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "motocon-v3-iot",
-    "storage_bucket": "motocon-v3-iot.firebasestorage.app"
+    "project_number": "160817542708",
+    "firebase_url": "https://pumplink-smart-pump-controller-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pumplink-smart-pump-controller",
+    "storage_bucket": "pumplink-smart-pump-controller.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:709479408697:android:b49f819c29cfe5187dd9e8",
+        "mobilesdk_app_id": "1:160817542708:android:0cb22f34bc65f5a8b13c61",
         "android_client_info": {
-          "package_name": "app.saronsmart.com"
+          "package_name": "app.hkiotsolution.com"
         }
       },
       "oauth_client": [
         {
-          "client_id": "709479408697-jpr9ncj4l1jub6d1nloa43llk7hlttkq.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "app.saronsmart.com",
-            "certificate_hash": "5a8bb8a19c671b0ed326be71ce82f2de1092d900"
-          }
-        },
-        {
-          "client_id": "709479408697-s6uolrqq17739gl02o80gcm0g243f2p2.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "app.saronsmart.com",
-            "certificate_hash": "08082123af58ef31df82b4f39c7fc33547bac688"
-          }
-        },
-        {
-          "client_id": "709479408697-b97qrk5t99c8pmt1e3rbjng7ie9881qo.apps.googleusercontent.com",
+          "client_id": "160817542708-erasa97nqp0pq6usdlf4ojcgsqthikrm.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCcsHbwoPA4xYgjoKW_tiZZ5C7J3V75nns"
+          "current_key": "AIzaSyBXFUSSBV-BInTAOApOYBS6jDg4MVZru70"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "709479408697-b97qrk5t99c8pmt1e3rbjng7ie9881qo.apps.googleusercontent.com",
+              "client_id": "160817542708-erasa97nqp0pq6usdlf4ojcgsqthikrm.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "709479408697-bok5bual6smju71s7esoai7unu0egg3u.apps.googleusercontent.com",
+              "client_id": "160817542708-3sian53jcvj8t9ocek1980i3fh9lj9jb.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "app.saronsmart.com"
+                "bundle_id": "app.hkiotsolution.com"
               }
             }
           ]

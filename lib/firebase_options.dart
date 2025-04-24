@@ -46,30 +46,30 @@ class DefaultFirebaseOptions {
     messagingSenderId: '709479408697',
     projectId: 'motocon-v3-iot',
     authDomain: 'motocon-v3-iot.firebaseapp.com',
-    databaseURL: 'https://motocon-v3-iot-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL:
+        'https://motocon-v3-iot-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'motocon-v3-iot.firebasestorage.app',
     measurementId: 'G-1ZVY9X54PD',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCcsHbwoPA4xYgjoKW_tiZZ5C7J3V75nns',
-    appId: '1:709479408697:android:b49f819c29cfe5187dd9e8',
-    messagingSenderId: '709479408697',
-    projectId: 'motocon-v3-iot',
-    databaseURL: 'https://motocon-v3-iot-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'motocon-v3-iot.firebasestorage.app',
+    apiKey: 'AIzaSyBXFUSSBV-BInTAOApOYBS6jDg4MVZru70',
+    appId: '1:160817542708:android:0cb22f34bc65f5a8b13c61',
+    messagingSenderId: '160817542708',
+    projectId: 'pumplink-smart-pump-controller',
+    databaseURL: 'https://pumplink-smart-pump-controller-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'pumplink-smart-pump-controller.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCKJ6eQpZ4egCeRxH_N8MxCEOxWlacB4yM',
-    appId: '1:709479408697:ios:5e0d1740077658bc7dd9e8',
-    messagingSenderId: '709479408697',
-    projectId: 'motocon-v3-iot',
-    databaseURL: 'https://motocon-v3-iot-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'motocon-v3-iot.firebasestorage.app',
-    androidClientId: '709479408697-jpr9ncj4l1jub6d1nloa43llk7hlttkq.apps.googleusercontent.com',
-    iosClientId: '709479408697-bok5bual6smju71s7esoai7unu0egg3u.apps.googleusercontent.com',
-    iosBundleId: 'app.saronsmart.com',
+    apiKey: 'AIzaSyCyHN-4UixImiFHOvhVzkrt5tuoY9Bywl0',
+    appId: '1:160817542708:ios:50201df085a2e010b13c61',
+    messagingSenderId: '160817542708',
+    projectId: 'pumplink-smart-pump-controller',
+    databaseURL: 'https://pumplink-smart-pump-controller-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'pumplink-smart-pump-controller.firebasestorage.app',
+    iosClientId: '160817542708-3sian53jcvj8t9ocek1980i3fh9lj9jb.apps.googleusercontent.com',
+    iosBundleId: 'app.hkiotsolution.com',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -77,11 +77,14 @@ class DefaultFirebaseOptions {
     appId: '1:709479408697:ios:5e0d1740077658bc7dd9e8',
     messagingSenderId: '709479408697',
     projectId: 'motocon-v3-iot',
-    databaseURL: 'https://motocon-v3-iot-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL:
+        'https://motocon-v3-iot-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'motocon-v3-iot.firebasestorage.app',
-    androidClientId: '709479408697-jpr9ncj4l1jub6d1nloa43llk7hlttkq.apps.googleusercontent.com',
-    iosClientId: '709479408697-bok5bual6smju71s7esoai7unu0egg3u.apps.googleusercontent.com',
-    iosBundleId: 'app.saronsmart.com',
+    androidClientId:
+        '709479408697-jpr9ncj4l1jub6d1nloa43llk7hlttkq.apps.googleusercontent.com',
+    iosClientId:
+        '709479408697-bok5bual6smju71s7esoai7unu0egg3u.apps.googleusercontent.com',
+    iosBundleId: 'app.hkiotsolution.com',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
@@ -90,9 +93,9 @@ class DefaultFirebaseOptions {
     messagingSenderId: '709479408697',
     projectId: 'motocon-v3-iot',
     authDomain: 'motocon-v3-iot.firebaseapp.com',
-    databaseURL: 'https://motocon-v3-iot-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL:
+        'https://motocon-v3-iot-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'motocon-v3-iot.firebasestorage.app',
     measurementId: 'G-8GL7MD105J',
   );
-
 }

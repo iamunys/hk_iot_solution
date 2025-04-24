@@ -11,7 +11,6 @@ class WidgetsController extends GetxController {
 
   bool _splashCompleteListDevice = false;
   bool _splashCompleteLogin = false;
-  bool _splashCompleteSelectDevice = false;
 
   bool get splashCompleteListDevice => _splashCompleteListDevice;
   set splashCompleteListDevice(v) {
@@ -22,13 +21,6 @@ class WidgetsController extends GetxController {
   bool get splashCompleteLogin => _splashCompleteLogin;
   set splashCompleteLogin(v) {
     _splashCompleteLogin = v;
-    update();
-  }
-
-  bool get splashCompleteSelectDevice => _splashCompleteSelectDevice;
-
-  set splashCompleteSelectDevice(v) {
-    _splashCompleteSelectDevice = v;
     update();
   }
 

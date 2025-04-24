@@ -148,7 +148,6 @@ class UserStateController extends GetxController {
       debugPrint('User is not logged In');
       isLoggedIn = false;
       Get.find<WidgetsController>().splashCompleteLogin = true;
-      Get.find<WidgetsController>().splashCompleteSelectDevice = false;
       Get.find<WidgetsController>().splashCompleteListDevice = false;
     } else {
       userId = currentUser!.uid;
@@ -159,8 +158,7 @@ class UserStateController extends GetxController {
 
       try {
         Get.find<WidgetsController>().splashCompleteLogin = false;
-        Get.find<WidgetsController>().splashCompleteSelectDevice = true;
-        Get.find<WidgetsController>().splashCompleteListDevice = false;
+        Get.find<WidgetsController>().splashCompleteListDevice = true;
       } catch (e) {
         if (kDebugMode) {
           print('Error checking/creating ID: $e');
@@ -179,7 +177,6 @@ class UserStateController extends GetxController {
     isLoggedIn = false;
     final currentContext = NavigationService.currentContext;
     Get.find<WidgetsController>().splashCompleteLogin = true;
-    Get.find<WidgetsController>().splashCompleteSelectDevice = false;
     Get.find<WidgetsController>().splashCompleteListDevice = false;
     currentContext.go('/');
   }

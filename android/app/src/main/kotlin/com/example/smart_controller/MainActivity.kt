@@ -1,4 +1,4 @@
-package com.saron.smart_controller
+package app.hkiotsolution.com
 
 import io.flutter.embedding.android.FlutterActivity
 

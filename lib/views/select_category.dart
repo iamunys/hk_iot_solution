@@ -42,7 +42,7 @@ class _SelectCategoryState extends State<SelectCategory> {
         //         ))
         //     : const SizedBox.shrink(),
         title: Text(
-          'Saron Smart',
+          'Hk Iot Solutions',
           style: TextStyle(
               fontFamily: 'Anton',
               color: Constant.bgWhite,

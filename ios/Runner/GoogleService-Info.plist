@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>709479408697-bok5bual6smju71s7esoai7unu0egg3u.apps.googleusercontent.com</string>
+	<string>160817542708-3sian53jcvj8t9ocek1980i3fh9lj9jb.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.709479408697-bok5bual6smju71s7esoai7unu0egg3u</string>
-	<key>ANDROID_CLIENT_ID</key>
-	<string>709479408697-jpr9ncj4l1jub6d1nloa43llk7hlttkq.apps.googleusercontent.com</string>
+	<string>com.googleusercontent.apps.160817542708-3sian53jcvj8t9ocek1980i3fh9lj9jb</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCKJ6eQpZ4egCeRxH_N8MxCEOxWlacB4yM</string>
+	<string>AIzaSyCyHN-4UixImiFHOvhVzkrt5tuoY9Bywl0</string>
 	<key>GCM_SENDER_ID</key>
-	<string>709479408697</string>
+	<string>160817542708</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>app.saronsmart.com</string>
+	<string>app.hkiotsolution.com</string>
 	<key>PROJECT_ID</key>
-	<string>motocon-v3-iot</string>
+	<string>pumplink-smart-pump-controller</string>
 	<key>STORAGE_BUCKET</key>
-	<string>motocon-v3-iot.firebasestorage.app</string>
+	<string>pumplink-smart-pump-controller.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:709479408697:ios:5e0d1740077658bc7dd9e8</string>
+	<string>1:160817542708:ios:50201df085a2e010b13c61</string>
 	<key>DATABASE_URL</key>
-	<string>https://motocon-v3-iot-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+	<string>https://pumplink-smart-pump-controller-default-rtdb.asia-southeast1.firebasedatabase.app</string>
 </dict>
 </plist>
