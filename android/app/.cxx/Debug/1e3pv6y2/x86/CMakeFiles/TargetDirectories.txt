@@ -1,0 +1,2 @@
+/Users/spotroot/Documents/smart_controller/android/app/.cxx/Debug/1e3pv6y2/x86/CMakeFiles/edit_cache.dir
+/Users/spotroot/Documents/smart_controller/android/app/.cxx/Debug/1e3pv6y2/x86/CMakeFiles/rebuild_cache.dir
